@@ -92,4 +92,10 @@ python test.py --data CUB --backbone resnet50 --b 16 --nw 16 --ver val --crop 44
 
 实现CUB数据集分类后更换数据集为leaf220重复执行训练和测试 绘制损失函数曲线图观察是否过拟合（改代码已写好训练阶段结束会自动弹出）。
 
+leaf220损失函数曲线：红色曲线为训练集损失曲线，蓝色曲线为验证集损失曲线。
+
+
+![image](https://user-images.githubusercontent.com/83754490/183551732-f69e9161-a241-4f53-9455-c3de86fd0b9b.png)
+
+
 
